@@ -692,4 +692,12 @@ li {
     .table-wrap .table_head div:first-of-type {
         margin-left: 24px;
     }
+    .update_table {
+        margin-top: 15px;
+    }
+    .update_table a {
+        max-width: 150px;
+        font-size: 12px;
+        line-height: 100%;
+    }
 }
