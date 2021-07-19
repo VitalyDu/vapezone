@@ -5,16 +5,10 @@
     box-sizing: border-box;
 }
 
-
-/* Убираем внутренние отступы */
-
 ul[class],
 ol[class] {
     padding: 0;
 }
-
-
-/* Убираем внешние отступы */
 
 body,
 h1,
@@ -38,16 +32,10 @@ body {
     padding-bottom: 147px;
 }
 
-
-/* Упрощаем работу с изображениями */
-
 img {
     max-width: 100%;
     display: block;
 }
-
-
-/* Наследуем шрифты для инпутов и кнопок */
 
 input,
 button,
@@ -88,8 +76,6 @@ li {
     font-size: 36px;
     line-height: 42px;
     color: #ff7a00;
-    /* margin-left: 92px; */
-    /* margin-left: 5%; */
 }
 
 .header .header_catalog {
@@ -97,9 +83,6 @@ li {
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    /* margin-left: 10%; */
-    /* margin-left: 188px; */
-    /* position: relative; */
 }
 
 .header .header_catalog .header_catalog_link {
@@ -175,7 +158,6 @@ li {
     justify-content: center;
     align-items: center;
     position: relative;
-    /* margin-left: 112px; */
 }
 
 .header .header_search input {
@@ -219,7 +201,6 @@ li {
 }
 
 .header .header_basket {
-    /* margin-left: 169px; */
     margin-right: 76px;
 }
 
@@ -227,10 +208,6 @@ li {
     max-width: 44px;
     width: 100%;
     height: auto;
-}
-
-.header .header_profile {
-    /* margin-left: 76px; */
 }
 
 .header .header_profile a img {
@@ -360,8 +337,6 @@ li {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
-    /* font-size: 24px;
-    line-height: 28px; */
     font-size: 1em;
     line-height: 130%;
     color: #ffffff;
@@ -539,61 +514,6 @@ li {
         font-size: 12px;
     }
 }
-
-
-/* @media (max-width: 560px) {
-    .header .header_logo {
-        font-size: 16px;
-    }
-    .header .header_catalog .header_catalog_link {
-        font-size: 12px;
-    }
-    .header .header_catalog .header_catalog_link img.burger-img {
-        max-width: 8px;
-    }
-    .header .header_search {
-        max-width: 150px;
-        height: 20px;
-    }
-    .header .header_search button {
-        height: 20px;
-        width: 20px;
-    }
-    .header .header_basket a img {
-        max-width: 15px;
-    }
-    .header .header_profile a img {
-        max-width: 15px;
-    }
-    .header .header_basket {
-        margin-right: 10px;
-    }
-    .table-wrap .table_head div {
-        font-size: 12px;
-        padding: 6px 5px 6px 5px;
-    }
-    .table-wrap .table_content .table_content_row div {
-        font-size: 12px;
-        padding: 6px 5px 6px 5px;
-    }
-    .table-wrap .table_content .table_content_row div.table_content_fieldNubmer {
-        width: 40px;
-        height: 40px;
-    }
-    .table-wrap .table_head div:first-of-type {
-        margin-left: 40px;
-    }
-    .table-wrap .table_content .table_content_row div {
-        margin-left: 0px;
-    }
-    .table-wrap .table_content .table_content_row div:nth-of-type(2) {
-        margin-left: 40px;
-    }
-    .table-wrap .table_content .table_content_row div.table_content_fieldNubmer {
-        left: 0px;
-        margin-left: 0px;
-    }
-} */
 
 @media (max-width: 560px) {
     .header {
