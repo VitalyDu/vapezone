@@ -490,6 +490,9 @@ li {
 }
 
 @media (max-width: 760px) {
+    .header {
+        height: 60px;
+    }
     .header .header_search {
         max-width: 250px;
     }
